@@ -1,5 +1,5 @@
 $(function(){
-    $.get("../topics.json",function(topics){
+    $.get("topics.json",function(topics){
         var data=topics
         var txt=''
         for(i=0;i<data.length;i++)
