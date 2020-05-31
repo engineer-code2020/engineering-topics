@@ -4,8 +4,8 @@ $(function(){
         var txt=''
         for(i=0;i<data.length;i++)
         {
-            txt+=`<div class="card5 mx-3" cat='${data[i].type}'>
-            <a href="https://qfshatmhnds.blogspot.com/${data[i].links}" target="_blank"><img src="img/${data[i].imges}" alt="">
+            txt+=`<div class="card5 mx-lg-3 col-8 col-lg-3" cat='${data[i].type}'>
+            <a href="https://qfshatmhnds.blogspot.com/${data[i].links}" target="_blank"><img class="col-12" src="img/${data[i].imges}" alt="">
                 <div class="tit"><p>${data[i].title}</p></div>
             </a>
             </div>`

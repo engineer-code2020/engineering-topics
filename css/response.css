@@ -1,0 +1,11 @@
+@media (max-width:360px){
+    html
+    {
+        font-size: 10px;
+    }
+    #to_up a{font-size: 2.5rem;}
+    #btnMain
+    {
+        flex-wrap: wrap;
+    }
+}
